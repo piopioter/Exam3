@@ -1,4 +1,4 @@
-package exercise4;
+package exercise4.models;
 
 public class Person implements Comparable<Person> {
     private String name;

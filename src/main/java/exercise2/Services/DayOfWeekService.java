@@ -8,7 +8,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.sql.Timestamp;
 import java.time.DayOfWeek;
 
-public class DayOfWeekServices {
+public class DayOfWeekService {
     public static void findJavaFiles(File directory, int[] array) {
         for (File f : directory.listFiles())
             if (f.isDirectory())

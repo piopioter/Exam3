@@ -1,10 +1,10 @@
-package exercise3;
+package exercise3.app;
 
 public class FibonacciRunner {
     public static void main(String[] args) {
 
-        System.out.println(getFibonacciIndex(8));
-
+        int result = getFibonacciIndex(8);
+        System.out.println(result);
     }
 
     public static int getFibonacciIndex(int number) {
